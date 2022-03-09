@@ -5,7 +5,7 @@ describe('Testing Inceptive DREAM TEAM', () => {
 
       // tittar på charset och ser att vi använder oss av utf-8
       cy.document().should('have.property', 'charset').and('eq', 'UTF-8')
-      
+
       // fånga och klicka DREAM TEAM fliken
       cy.contains('THE DREAM TEAM').click()
 
